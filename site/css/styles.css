@@ -1,6 +1,43 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #707070;
   font-family: 'Oxygen', sans-serif;
+}
+
+.green {
+	height: 40px;
+	background-color: #6cac57; 
+}
+
+#header-nav {
+	background-color: #56575a;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-nav {
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	left: 50px;
+	top: 0;
+	background-color: #474747;
+	z-index: 100;
+}
+
+
+
+
+337 434 554
+
+/***********************/
+@media (min-width: 1200px) {
+	.jumbotron {
+		background: url('../images/baner1200.jpg') no-repeat;
+		height: 554px;
+		box-shadow: 0 0 50px #4e4e4e;
+		border: 2px solid #4e4e4e;
+
+	}
 }
