@@ -29,15 +29,52 @@ body {
 
 
 
-337 434 554
+/*Home page*/
+
+.container .jumbotron {
+	box-shadow: 0 2px 30px #404040;
+	border: 1px solid #404040;
+*/
+}
+
+
+
 
 /***********************/
 @media (min-width: 1200px) {
-	.jumbotron {
+	.container .jumbotron {
 		background: url('../images/baner1200.jpg') no-repeat;
-		height: 554px;
-		box-shadow: 0 0 50px #4e4e4e;
-		border: 2px solid #4e4e4e;
-
+		height: 541px;
+		
 	}
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+		background: url('../images/baner992.jpg') no-repeat;
+		height: 447px;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		background: url('../images/baner768.jpg') no-repeat;
+		height: 346px;
+		
+	}
+}
+
+@media (max-width: 767px) {
+	.container .jumbotron {
+
+		margin-top: 0;
+		padding: 0;
+	
+		
+
+	}
+
+}
+
+
