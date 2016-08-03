@@ -16,6 +16,14 @@ body {
 	border: 0;
 }
 
+#logo-img {
+	background: url('../images/logo-up200-85.png') no-repeat;
+	width: 200px;
+	height: 85px;
+	margin: 0 0 10px 0;
+
+}
+/*
 #logo-nav {
 	position: absolute;
 	width: 300px;
@@ -25,7 +33,7 @@ body {
 	background-color: #474747;
 	z-index: 100;
 }
-
+*/
 
 
 
@@ -43,24 +51,24 @@ body {
 /***********************/
 @media (min-width: 1200px) {
 	.container .jumbotron {
-		background: url('../images/baner1200.jpg') no-repeat;
-		height: 541px;
+		background: url('../images/baner1200-442.jpg') no-repeat;
+		height: 442px;
 		
 	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.container .jumbotron {
-		background: url('../images/baner992.jpg') no-repeat;
-		height: 447px;
+		background: url('../images/baner992-366.jpg') no-repeat;
+		height: 366px;
 		
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron {
-		background: url('../images/baner768.jpg') no-repeat;
-		height: 346px;
+		background: url('../images/baner768-283.jpg') no-repeat;
+		height: 283px;
 		
 	}
 }
