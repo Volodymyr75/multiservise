@@ -1,14 +1,15 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: white;
   background-color: #707070;
   font-family: 'Oxygen', sans-serif;
 }
 
-.green {
+/*.green {
 	height: 40px;
 	background-color: #6cac57; 
-}
+}*/
+/*Header*/
 
 #header-nav {
 	background-color: #56575a;
@@ -22,6 +23,23 @@ body {
 	height: 85px;
 	margin: 0 0 10px 0;
 
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+#nav-list a:hover {
+	color: #6cac57;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #6cac57;
 }
 /*
 #logo-nav {
@@ -42,7 +60,7 @@ body {
 .container .jumbotron {
 	box-shadow: 0 2px 30px #404040;
 	border: 1px solid #404040;
-*/
+	
 }
 
 
@@ -51,24 +69,29 @@ body {
 /***********************/
 @media (min-width: 1200px) {
 	.container .jumbotron {
-		background: url('../images/baner1200-442.jpg') no-repeat;
-		height: 442px;
+		background: url('../images/baner1170-432.jpg') no-repeat;
+		height: 432px;
+
+
+	
 		
 	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.container .jumbotron {
-		background: url('../images/baner992-366.jpg') no-repeat;
-		height: 366px;
+		background: url('../images/baner962-355.jpg') no-repeat;
+		height: 355px;
 		
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron {
-		background: url('../images/baner768-283.jpg') no-repeat;
-		height: 283px;
+		background: url('../images/baner738-272.jpg') no-repeat;
+		height: 272px;
+
+
 		
 	}
 }
@@ -78,11 +101,9 @@ body {
 
 		margin-top: 0;
 		padding: 0;
-	
-		
-
 	}
 
 }
+
 
 
