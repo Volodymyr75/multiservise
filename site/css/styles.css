@@ -18,9 +18,9 @@ body {
 }
 
 #logo-img {
-	background: url('../images/logo-up200-85.png') no-repeat;
-	width: 200px;
-	height: 85px;
+	background: url('../images/logo-up170-72.png') no-repeat;
+	width: 170px;
+	height: 72px;
 	margin: 0 0 10px 0;
 
 }
@@ -29,7 +29,7 @@ body {
 	margin-top: 10px;
 }
 #nav-list a {
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
@@ -38,8 +38,12 @@ body {
 	color: #6cac57;
 }
 
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #6cac57;
+}
+.navbar-nav .open .dropdown-menu {
+	background-color: #56575a;
 }
 /*
 #logo-nav {
@@ -62,8 +66,66 @@ body {
 	border: 1px solid #404040;
 	
 }
+#about-company {
+	height: 550px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	border: 1px solid #56575a;
+	overflow: hidden;
+}
 
+#about, #technika, #building, #shipping, #rent, #contact {
+	height: 260px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	border: 1px solid #56575a;
+	border-radius: 5px;
+	overflow: hidden;
+}
 
+#about:hover, #technika:hover, #building:hover, #shipping:hover, #rent:hover, #contact:hover {
+	box-shadow: 0 2px 5px 1px #56575a;
+}
+
+#about {
+	background: url('../images/about260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+#technika {
+	background: url('../images/technika260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+#building {
+	background: url('../images/building260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+#shipping {
+	background: url('../images/shipping260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+#rent {
+	background: url('../images/rent260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+#contact {
+	background: url('../images/contact260-173.jpg') no-repeat;
+	background-position: bottom;
+}
+
+#about span, #technika span, #building span, #shipping span, #rent span, #contact span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.3em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: green;
+	color: white;
+}
+/*End home page*/
 
 
 /***********************/
@@ -79,6 +141,13 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+	#logo-img {
+		background: url('../images/logo-up170-72.png') no-repeat;
+		width: 170px;
+		height: 72px;
+		margin: 0 0 10px 0;
+	}
+
 	.container .jumbotron {
 		background: url('../images/baner962-355.jpg') no-repeat;
 		height: 355px;
@@ -103,7 +172,27 @@ body {
 		padding: 0;
 	}
 
+#about, #technika, #building, #shipping, #rent, #contact {
+	width: 260px;
+	margin: 0 auto 15px;
 }
 
+#about-company {
+	height: 260px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	border: 1px solid #56575a;
+	overflow: hidden;
+}
+
+@media (max-width: 479px) {
+	/*home page*/
+	#about, #technika, #building, #shipping, #rent, #contact {
+		width: 240px;
+		margin: 0 auto 15px;
+	}
+
+}
 
 
