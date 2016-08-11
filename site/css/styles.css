@@ -60,6 +60,21 @@ body {
 	width: 200px;
 	height: 131px;
 	margin: 0;
+	
+
+	
+
+}
+
+#foot a {
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	width: 100px;
+}
+#foot a:hover {
+	color: #6cac57;
 }
 
 
@@ -163,7 +178,21 @@ body {
 .technika-main:hover {
 	box-shadow: 0 2px 5px 1px #56575a;
 }
+/*end techika*/
 
+/*avtokran*/
+.technika {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	border: 1px solid #56575a;
+	border-radius: 5px;
+	overflow: hidden;
+}
+/*#example {
+	width: 300px;
+}*/
 
 /***********************/
 @media (min-width: 1200px) {
