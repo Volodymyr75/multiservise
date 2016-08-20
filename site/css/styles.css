@@ -317,34 +317,96 @@ body {
 
 /*avtokran*/
 .technika {
-	height: 500px;
+	height: 750px;
 	width: 100%;
 	margin-bottom: 30px;
+/*	margin-top: 30px;*/
 	position: relative;
-	border: 1px solid #56575a;
+	
 	border-radius: 5px;
 	overflow: hidden;
 }
 /*#example {
 	width: 300px;
 }*/
+.img-tech {
+	background:  no-repeat;
+	background-position: center;
+}
+.technika-header {
+	background: #69B359;
+	border-radius: 20px 20px 0 0;
+	position: relative;
+	height: 63px;
+
+}
+
+header h1.technika-h1 {
+	
+		color: white;
+		text-align: center;
+		padding-top: 10px;
+/*			padding: 0 85px 0 85px;*/
+		
+}
+.odd {
+	background-color: #979B9C;
+	height: 50px;
+}
+.even {
+	background-color: #858887;
+	height: 50px;
+}
+.t-left {
+    
+    color: white;
+    padding-left: 20px;
+}
+.t-right {
+ 
+    color: white;
+}
 
 /*forma*/
 #f1 {
 	background-color: #69B359;
 	border: 0;
 	border-radius: 0;
-	color: black;
+	text-align: center;
+	font-size: 23px;
 }
-#f1>a {
+.nav-tabs>li>a {
 	margin-right: 0;
+
+}
+.nav-tabs>li>a span {
+	border: 1px solid white;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
 }
 #f2 {
 	background-color: #474747;
 	border: 0;
 	border-radius: 0;
 	color: white;
+	text-align: center;
+	font-size: 23px;
 }
+.tab-content {
+	margin-top: 0; 
+	background-color: #979B9C
+}
+input.form-control {
+	background-color: #B7BBBC;
+	border: 0;
+}
+.form-horizontal .control-label {
+	text-align: left;
+	color: black;
+
+}
+/*end forma*/
 
 /***********************/
 @media (min-width: 1200px) {
