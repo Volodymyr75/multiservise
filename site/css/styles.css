@@ -133,13 +133,32 @@ body {
 	margin-bottom: 70px;
 
 }
+
+.company-header {
+	background: #90ACAA;
+	border-radius: 20px 20px 0 0;
+	position: relative;
+	height: 70px;
+}
+header h1.company-h1 {
+
+	color: #528A85;
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 0;
+/*	padding: 0 85px 0 85px;*/
+		
+}
+
+
 #about-company {
-	height: 550px;
+	height: 650px;
 	width: 100%;
 	margin-bottom: 30px;
-	margin-right: 50px;
+	margin-right: 50px; 
+	border-radius: 20px;
 	position: relative;
-	border: 1px solid #56575a;
+	background-color: #C2C5C6;
 	overflow: hidden;
 }
 
@@ -367,6 +386,9 @@ header h1.technika-h1 {
 }
 .no-padding-right {
 	padding-right: 0;
+}
+.no-padding-left {
+	padding-left: 0;
 }
 h1.pull-left {
 	font-size: 31px;
