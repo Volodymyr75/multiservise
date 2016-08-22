@@ -83,6 +83,7 @@ body {
 	border-top: 0;
 	padding: 0;
 	background-color: #56575a;
+	margin-top: 70px;
 }
 #logo-down-img {
 	background: url('../images/logo-down200-131.png') no-repeat;
@@ -315,9 +316,9 @@ body {
 
 /*end techika*/
 
-/*avtokran*/
+/*aLL technika*/
 .technika {
-	height: 750px;
+	height: 100%;
 	width: 100%;
 	margin-bottom: 30px;
 /*	margin-top: 30px;*/
@@ -351,20 +352,26 @@ header h1.technika-h1 {
 }
 .odd {
 	background-color: #979B9C;
-	height: 50px;
+	height: 59px;
 }
 .even {
 	background-color: #858887;
-	height: 50px;
+	height: 59px;
 }
-.t-left {
-    
+.t-left {   
     color: white;
     padding-left: 20px;
 }
 .t-right {
- 
     color: white;
+}
+.no-padding-right {
+	padding-right: 0;
+}
+h1.pull-left {
+	font-size: 31px;
+	margin-top: 15px;
+	color: #69B359
 }
 
 /*forma*/
