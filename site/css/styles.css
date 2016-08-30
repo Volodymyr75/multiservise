@@ -28,12 +28,21 @@ body {
 }
 
 
-/*.green {
-	height: 40px;
-	background-color: #6cac57; 
-}*/
 /*Header*/
 
+
+.green {
+	height: 40px;
+	background-color: #6cac57; 
+}
+.green p {
+	text-align:right; 
+	color:#57585A; 
+	font-size: 25px;
+}
+.green p>span {
+	margin-left: 100px;
+}
 #header-nav {
 	background-color: #56575a;
 	border-radius: 0;
@@ -41,18 +50,22 @@ body {
 }
 
 #logo-img {
-	background: url('../images/logo-up170-72.png') no-repeat;
-	width: 170px;
-	height: 72px;
-	margin: 0 0 10px 0;
+	background: url('../images/logo-up220-94.png') no-repeat;
+	width: 220px;
+	height: 94px;
+	
+	position: absolute;
+	left: 0;
+	top: -40px;
+	z-index: 1070;
 
 }
 
 #nav-list {
-	margin-top: 10px;
+	margin-top: 0;
 }
 #nav-list>li>a {
-	font-size: 18px;
+	font-size: 19px;
 	text-align: center;
 	color: white;
 	background-color: #56575a;
@@ -85,27 +98,39 @@ body {
 	background-color: #56575a;
 	margin-top: 70px;
 }
-#logo-down-img {
-	background: url('../images/logo-down200-131.png') no-repeat;
-	width: 200px;
-	height: 131px;
-	margin: 0;
-	
 
 	
+#nav-list-down>li>a {
+	font-size: 19px;
+	text-align: center;
+	color: white;
+	background-color: #56575a;
+}
+#nav-list-down a:hover {
+	color: #6cac57;
+}
+#footer-adress {
+	color: #AAAAAA;
+}
+#footer-tel {
+	color: #6CAD58;
+}	
 
 }
+/*#foot {
+#
 
+}
 #foot a {
-	font-size: 18px;
+	font-size: 19px;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
-	width: 100px;
-}
+	/*width: 100px;*/
+/*}
 #foot a:hover {
 	color: #6cac57;
-}
+}*/
 
 
 /*
@@ -439,16 +464,30 @@ input.form-control {
 
 /***********************/
 @media (min-width: 1200px) {
+	/*footer*/
+	#logo-down-img {
+	background: url('../images/logo-down220-144.png') no-repeat;
+	width: 220px;
+	height: 144px;
+	margin: 0;
+	}
+	#footer-adress {
+	font-size: 22px;
+	margin-bottom: 0;
+	}
+	#footer-tel {
+	font-size: 21px;
+	}	
 	/*main*/
-.no-padding {
+	.no-padding {
 	padding-left: 40px;
 	padding-right: 0;
-}
+	}
 	#main-content .jumbotron {
 		background: url('../images/baner1170-432.jpg') no-repeat;
 		height: 432px;
 	}
-/*technika*/
+	/*technika*/
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech1170-432.jpg') no-repeat;	
 		height: 432px;
@@ -456,16 +495,33 @@ input.form-control {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*main*/
-	.no-padding {
-	padding-left: 40px;
-	padding-right: 0;
-}
+	/*footer*/
+	#logo-down-img {
+	background: url('../images/logo-down200-131.png') no-repeat;
+	width: 200px;
+	height: 131px;
+	margin: 0;
+	}
+	#footer-adress {
+	font-size: 19px;
+	margin-bottom: 0;
+	}
+	#footer-tel {
+	font-size: 18px;
+	}	
+	
 	#logo-img {
-		background: url('../images/logo-up170-72.png') no-repeat;
-		width: 170px;
-		height: 72px;
-		margin: 0 0 10px 0;
+		background: url('../images/logo-up200-85.png') no-repeat;
+		width: 200px;
+		height: 85px;
+
+	/*	margin: 0 0 10px 0;*/
+	}
+	#nav-list>li>a {
+		font-size: 17px;
+	}
+	#nav-list-down>li>a {
+		font-size: 17px;
 	}
 
 	#main-content .jumbotron {
@@ -473,7 +529,11 @@ input.form-control {
 		height: 355px;
 		
 	}
-
+	/*main*/
+	.no-padding {
+	padding-left: 40px;
+	padding-right: 0;
+	}
 	/*technika*/
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech962-355.jpg') no-repeat;
@@ -482,18 +542,56 @@ input.form-control {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	/*footer*/
 
-	/*main*/
-	.no-padding {
-	padding-left: 40px;
-	padding-right: 0;
+
+
+	#logo-down-img {
+	background: url('../images/logo-down180-118.png') no-repeat;
+	width: 180px;
+	height: 118px;
+	margin: 0;
+	}
+	#footer-adress {
+	font-size: 15px;
+	margin-bottom: 0;
+	}
+	#footer-tel {
+	font-size: 15px;
+	}	
+	.green p {
+		text-align:right; 
+		color:#57585A; 
+		font-size: 23px;
+	}
+	.green p>span {
+		margin-left: 50px;
+	}
+	
+	#logo-img {
+		background: url('../images/logo-up170-72.png') no-repeat;
+		width: 170px;
+		height: 72px;
+	/*	margin: 0 0 10px 0;*/
+	}
+	#nav-list>li>a {
+		font-size: 14px;
+		padding: 10px 5px;
+	}
+	#nav-list-down>li>a {
+		font-size: 14px;
+		padding: 10px 5px;
 	}
 
 	#main-content .jumbotron {
 		background: url('../images/baner738-272.jpg') no-repeat;
 		height: 272px;	
 	}
-
+	/*main*/
+	.no-padding {
+	padding-left: 40px;
+	padding-right: 0;
+	}
 	/*technika*/
 	#main-content-technika .jumbotron{
 		background: url('../images/baner-tech738-272.jpg') no-repeat;
@@ -503,6 +601,24 @@ input.form-control {
 
 @media (max-width: 767px) {
 	/*home page*/
+	.green {
+	height: 30px;
+	background-color: #6cac57; 
+}
+	.green p {
+		text-align:right; 
+		color:#57585A; 
+		font-size: 18px;
+	}
+	.green p>span {
+		margin-left: 30px;
+	}
+	#logo-img {
+		background: url('../images/logo-up170-72.png') no-repeat;
+		width: 170px;
+		height: 72px;
+	/*	margin: 0 0 10px 0;*/
+	}
 	.container .jumbotron {
 
 		margin-top: 0;
