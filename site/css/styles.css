@@ -758,7 +758,7 @@ input.form-control {
 	.green p {
 		text-align:right; 
 		color:#57585A; 
-		font-size: 12px;
+		font-size: 16px;
 	}
 	.green p>span {
 		margin-left: 10px;
@@ -774,7 +774,7 @@ input.form-control {
 	margin: 0 auto 15px;
  	}
  	header h1.technika-h1 {
-		font-size: 22px;
+		font-size: 23px;
 	}
  	#f1, #f2 {
 	
