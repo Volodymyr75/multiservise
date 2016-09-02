@@ -773,9 +773,11 @@ input.form-control {
  	width: 240px;
 	margin: 0 auto 15px;
  	}
+ 	header h1.technika-h1 {
+		font-size: 18px;
  	#f1, #f2 {
 	
-	font-size: 22px;
+	font-size: 20px;
 	}
 	label.control-label {
 		font-size: 14px;
