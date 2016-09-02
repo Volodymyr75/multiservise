@@ -11,17 +11,25 @@
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
   </head>
 <body>
-  <header>
+   <header>
   	<!-- <div class="wrap">
   		<div class="green"></div>	
   	</div> -->
-  	
-   <nav id="header-nav" class="navbar navbar-default">
+  	<div class="green">
+  		<div class="container">
+  			<div class="col-md-12">
+  				<p>+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63 <span>RU</span></p>
+  			</div>
+  		</div>
+  	</div>
+    <nav id="header-nav" class="navbar navbar-default">
     	<div class="container">
-    		<div class="navbar-header">
-  				<a href="index.html" class="pull-left">
-  					<div id="logo-img" alt="logo"></div>
+    		<div style="position:relative">
+    			<a href="index.html" class="pull-left">
+  					<div id="logo-img" class="hidden-xs" alt="logo"></div>
   				</a>
+			</div>
+    		<div class="navbar-header">	
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 	            	<span class="sr-only">Toggle navigation</span>
 	            	<span class="icon-bar"></span>
@@ -30,7 +38,7 @@
 	       		</button>
   			</div>
 			<div id="collapsable-nav" class="collapse navbar-collapse">
-			           <ul id="nav-list" class="nav navbar-nav navbar-right">
+			         <ul id="nav-list" class="nav navbar-nav navbar-right">
 			            <li>
 			              <a href="about.html">О КОМПАНИИ</a>
 			            </li>
@@ -66,28 +74,25 @@
 			              <a href="contact.html">КОНТАКТЫ</a>
 			            </li>
 			            
-			          </ul><!-- #nav-list -->
-			</div><!-- .collapse .navbar-collapse -->
-		  		
-	  	</div>
-  	
+			         </ul><!-- #nav-list -->
+			</div><!-- .collapse .navbar-collapse --> 		
+	  	</div> <!-- container -->
     </nav>
-
   </header>
 
 	  <div id="main-content-avto" class="container">
 		<div id="" class="row">
 				<div class="col-sm-6 col-xs-12">
 					<div class="technika" style="padding-top:20px">
-						<div class="col-sm-9 col-xs-6 no-padding-right">
+						<div class="col-sm-9 col-xs-9 no-padding-right">
 						<h1 class="pull-left no-padding-right" >КОНТАКТЫ
 						</h1>
 						</div>
-						<div class="col-sm-2 col-xs-2 no-padding-right">
-						<a href="index.html" style=""><img src="images/home56-45.png" alt="home"></a>
+						<div class="col-sm-2 col-xs-2 no-padding-right" style="margin-top: 7px">
+						<a href="index.html" style=""><img src="images/home50-40.png" alt="home"></a>
 						
 						</div>
-						<div class="col-sm-11 col-xs-11 img-tech">
+						<div class="col-sm-11 col-xs-12 img-tech">
 							<img src="images/contact.jpg" class="img-responsive" alt="contact">
 						</div>
 						
@@ -98,7 +103,7 @@
 				<div class="col-sm-6 col-xs-12">
 					<div class="technika">
 						<header class="technika-header">
-							<h1 class="technika-h1">КОНТАКТЫ "МУЛЬТИСЕРВИС"</h1>
+							<h1 class="technika-h1">КОНТАКТЫ &laquo;МУЛЬТИСЕРВИС&raquo;</h1>
 						</header>
 							<table style="width: 100%">
 								<tbody style="width: 100%">
@@ -106,7 +111,7 @@
 										<td class="t-left">Адрес: 19900, ул. Кирова, 18, пгт. Чернобай, Черкасская обл.</td>	
 									</tr>
 									<tr class="odd">
-										<td class="t-left">Тел. +38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63</td>	
+										<td class="t-left">Тел. +38 047 39 229 57 <br><span style="margin-left:25px">+38 066 069 66 46</span><br> <span style="margin-left:25px">+38 068 660 02 63</span></td>	
 									</tr>
 									<tr class="even">
 										<td class="t-left">www.m-services.com.ua</td>	
@@ -136,37 +141,37 @@
 							    <form class="form-horizontal" role="form" style="font-family: MyriadPro-Cond-Light">
 							    	<div class="container">
 							    		<div class="row" style="margin-top: 20px">
-							    			<div class="col-sm-5 col-xs-12" style="padding-right:0">
-							    				<div class="form-group col-sm-12 col-xs-12" style="padding-right:0">
-								    				<label class="col-sm-3 col-xs-4 control-label" for="zakaz">ЗАКАЗЧИК:</label>
-								    				<div class="col-sm-8 col-xs-7">
+							    			<div class="col-sm-5 col-xs-12 no-padding-right">
+							    				<div class="form-group col-sm-12 col-xs-12 no-padding-right">
+								    				<label class="col-sm-3 col-xs-5 control-label" for="zakaz">ЗАКАЗЧИК:</label>
+								    				<div class="col-lg-8 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="zakaz" placeholder="">
 								    				</div>
 								    			</div>
-								    			<div class="form-group col-sm-12 col-xs-12" style="padding-right:0">
-								    				<label class="col-sm-3 col-xs-4 control-label">ФИО:</label>
-								    				<div class="col-sm-8 col-xs-7">
+								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
+								    				<label class="col-sm-3 col-xs-5 control-label">ФИО:</label>
+								    				<div class="col-lg-8 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    					
 								    				</div>
 								    				<img src="images/mark35-35.png" alt="mark">
 								    			</div>
-								    			<div class="form-group col-sm-12 col-xs-12" style="padding-right:0">
-								    				<label class="col-sm-3 col-xs-4 control-label">ТЕЛЕФОН:</label>
-								    				<div class="col-sm-8 col-xs-7">
+								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
+								    				<label class="col-sm-3 col-xs-5 control-label">ТЕЛЕФОН:</label>
+								    				<div class="col-lg-8 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 									    			    <img src="images/mark35-35.png" alt="mark"">
 									    		</div>
-								    			<div class="form-group col-sm-12 col-xs-12" style="padding-right:0">
-								    				<label class="col-sm-3 col-xs-4 control-label">E-MAIL:</label>
-								    				<div class="col-sm-8 col-xs-7">
+								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
+								    				<label class="col-sm-3 col-xs-5 control-label">E-MAIL:</label>
+								    				<div class="col-lg-8 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
-								    			<div class="form-group col-sm-12 col-xs-12" style="padding-right:0">
-								    				<label class="col-sm-3 col-xs-4 control-label">ДАТА ЗАЯВКИ:</label>
-								    				<div class="col-sm-8 col-xs-7">
+								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
+								    				<label class="col-sm-3 col-xs-5 control-label">ДАТА ЗАЯВКИ:</label>
+								    				<div class="col-lg-8 col-xs-6">
 								    					<input type="email" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 									    		</div>
@@ -174,35 +179,35 @@
 							    			<div class="col-sm-7 col-xs-12">
 							    				<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-5 control-label">ХАРАКТЕРИСТИКА ЗАКАЗА:</label>
-								    				<div class="col-sm-7 col-xs-7">
+								    				<div class="col-sm-7 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-5 control-label">АДРЕС ПРЕДОСТАВЛЕНИЯ:</label>
-								    				<div class="col-sm-7 col-xs-7">
+								    				<div class="col-sm-7 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-5 control-label">ВРЕМЯ ПОЛЬЗОВАНИЯ (С/ПО):</label>
-								    				<div class="col-sm-7 col-xs-7">
+								    				<div class="col-sm-7 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-5 control-label">ОРИЕНТИРОВОЧНЫЙ ПРОБЕГ:</label>
-								    				<div class="col-sm-7 col-xs-7">
+								    				<div class="col-sm-7 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-5 control-label">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ:</label>
-								    				<div class="col-sm-7 col-xs-7">
+								    				<div class="col-sm-7 col-xs-6">
 								    					<input type="text" name="name" class="form-control" id="" placeholder="">
 								    				</div>
 								    			</div>
@@ -265,16 +270,32 @@
   					<div id="logo-down-img" alt="logo"></div>
   				</a>
 	  			</div>
-	  			<div id="foot" class="col-sm-10">
-	  				<a href="about.html"><div class="col-sm-2">О компании</div></a>
-	  				<a href="technika.html"><div class="col-sm-2">Каталог техники <br class="hidden-xs"> и оборудования</div></a>
-	  				<a href="building.html"><div class="col-sm-2">Продажа строительных  <br class="hidden-xs"> и пиломатериалов</div></a>
-	  				<a href="perevozka.html"><div class="col-sm-2">Превозка грузов</div></a>
-	  				<a href="rent.html"><div class="col-sm-2">Аренда прицепа <br class="hidden-xs"> без авто</div></a>
-	  				<a href="contact.html"><div class="col-sm-2">Контакты</div></a>
+	  			<div class="col-sm-10"> <!-- id="foot"  -->
 	  				<div class="col-sm-12">
-	  					<span>19900, ул. Кирова, 18, пгт. Чернобай, Черкасская обл., m-services@ukr.net, Skype: multi-s.eoc</span>
-	  					<span>Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63</span>
+			  			<ul id="nav-list-down" class="nav navbar-nav navbar-right">
+					            <li>
+					              <a href="about.html">О КОМПАНИИ</a>
+					            </li>
+					            <li >
+					              <a href="technika.html">КАТАЛОГ ТЕХНИКИ<br class="hidden-xs">И ОБОРУДОВАНИЯ</a>  	
+					            </li>
+					            <li>
+					              <a href="building.html">ПРОДАЖА СТРОИТЕЛЬНЫХ <br class="hidden-xs">И ПИЛОМАТЕРИАЛОВ</a>
+					            </li>
+					             <li>
+					              <a href="perevozka.html">ПЕРЕВОЗКА<br class="hidden-xs"> ГРУЗОВ</a>
+					            </li>
+					             <li>
+					              <a href="rent.html">АРЕНДА ПРИЦЕПА <br class="hidden-xs"> БЕЗ АВТО</a>
+					            </li>
+					             <li>
+					              <a href="contact.html">КОНТАКТЫ</a>
+					            </li>        
+					    </ul><!-- #nav-list -->
+				    </div>
+	  				<div class="col-lg-offset-2 col-lg-10 col-md-offset-1 col-md-11 col-sm-offset-2 col-sm-10">
+	  					<p id="footer-adress">19900, ул. Кирова, 18, пгт. Чернобай, Черкасская обл., m-services@ukr.net, Skype: multi-s.eoc</p>
+	  					<p id="footer-tel">Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63</p>
 	  				</div>
 	  			</div>
 	  		</div>

@@ -374,20 +374,19 @@ header h1.company-h1 {
 /*#example {
 	width: 300px;
 }*/
-.img-tech {
+/*.img-tech {
 	background:  no-repeat;
 	background-position: center;
-}
+}*/
 .technika-header {
 	background: #69B359;
 	border-radius: 20px 20px 0 0;
 	position: relative;
-	height: 63px;
+	height: 50px;
 
 }
 
 header h1.technika-h1 {
-	
 		color: white;
 		text-align: center;
 		padding-top: 10px;
@@ -396,11 +395,9 @@ header h1.technika-h1 {
 }
 .odd {
 	background-color: #979B9C;
-	height: 59px;
 }
 .even {
 	background-color: #858887;
-	height: 59px;
 }
 .t-left {   
     color: white;
@@ -416,10 +413,9 @@ header h1.technika-h1 {
 	padding-left: 0;
 }
 h1.pull-left {
-	font-size: 31px;
-	margin-top: 15px;
 	color: #69B359
 }
+
 
 /*forma*/
 #f1 {
@@ -492,6 +488,35 @@ input.form-control {
 		background: url('../images/baner-tech1170-432.jpg') no-repeat;	
 		height: 432px;
 	}
+	/*all technika*/
+	h1.pull-left {
+	font-size: 30px;
+	margin-top: 15px;
+	
+	}
+	#front-29 {
+	font-size: 29px;
+	}
+	header h1.technika-h1 {
+		font-size: 28px;	
+	}
+	.odd {
+		height: 60px;
+	}
+	.even {
+		height: 60px;
+	}
+
+
+	/*.home {
+		background: url('../images/home56-45.png') no-repeat;
+		height: 45px;
+	}
+	.book {
+		background: url('../images/book57-45.png') no-repeat;
+		height: 45px;
+	}*/
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -530,6 +555,16 @@ input.form-control {
 		
 	}
 	/*main*/
+	#about, #technika, #building {
+		/*display: table;*/
+	}
+	#about span, #technika span, #building span, #shipping span, #rent span, #contact span {
+		font-size: 22px;
+		/*display: table-cell;
+
+		vertical-align: middle;*/
+
+	}
 	.no-padding {
 	padding-left: 40px;
 	padding-right: 0;
@@ -538,6 +573,27 @@ input.form-control {
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech962-355.jpg') no-repeat;
 		height: 355px;	
+	}
+	/*all technika*/
+	h1.pull-left {
+	font-size: 26px;
+	margin-top: 20px;
+	}
+	#front-29 {
+	font-size: 24px;
+	}
+	header h1.technika-h1 {
+		font-size: 24px;	
+	}
+	.odd {
+		height: 50px;
+	}
+	.even {
+		height: 50px;
+	}
+	/*forma*/
+	label.control-label {
+		font-size: 15px;
 	}
 }
 
@@ -588,14 +644,41 @@ input.form-control {
 		height: 272px;	
 	}
 	/*main*/
-	.no-padding {
+	#about span, #technika span, #building span, #shipping span, #rent span, #contact span {
+		font-size: 23px;
+		/*display: table-cell;
+		vertical-align: middle;*/
+
+	}
+/*	.no-padding {
 	padding-left: 40px;
 	padding-right: 0;
-	}
+	}*/
 	/*technika*/
 	#main-content-technika .jumbotron{
 		background: url('../images/baner-tech738-272.jpg') no-repeat;
 		height: 272px;	
+	}
+	/*all technika*/
+	h1.pull-left {
+	font-size: 26px;
+	margin-top: 10px;
+	}
+	#front-29 {
+	font-size: 24px;
+	}
+	header h1.technika-h1 {
+		font-size: 22px;	
+	}
+	.odd {
+		height: 45px;
+	}
+	.even {
+		height: 45px;
+	}
+	/*forma*/
+	label.control-label {
+		font-size: 14px;
 	}
 }
 
@@ -645,9 +728,41 @@ input.form-control {
  	width: 260px;
 	margin: 0 auto 15px;
  	}
+ 	/*all technika*/
+ 	h1.pull-left {
+	font-size: 22px;
+	margin-top: 10px;
+	}
+	#front-29 {
+	font-size: 22px;
+	}
+	header h1.technika-h1 {
+		font-size: 20px;	
+	}
+	.odd {
+		height: 50px;
+	}
+	.even {
+		height: 50px;
+	}
+	/*forma*/
+	label.control-label {
+		font-size: 16px;
+	}
+	div.col-sm-7.col-xs-12, div.col-sm-7.col-xs-12 div.form-group.col-sm-12.col-xs-12 {
+		padding-right: 0;
+	}
 }
 @media (max-width: 479px) {
 	/*home page*/
+	.green p {
+		text-align:right; 
+		color:#57585A; 
+		font-size: 12px;
+	}
+	.green p>span {
+		margin-left: 10px;
+	}
 	#about, #technika, #building, #shipping, #rent, #contact {
 		width: 240px;
 		margin: 0 auto 15px;
