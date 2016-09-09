@@ -1,0 +1,22 @@
+[0905/154644:ERROR:process_info.cc(608)] range at 0xef943e2a00000000, size 0x29b fully unreadable
+[0905/154644:ERROR:process_info.cc(608)] range at 0xef943e9000000000, size 0x29b fully unreadable
+[0905/154644:ERROR:process_info.cc(608)] range at 0x0, size 0x29b fully unreadable
+[0905/154645:WARNING:in_range_cast.h(38)] value 2868762646360 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2868762646182 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2868762647980 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2868762644070 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2868762644278 out of range
+[0905/154645:ERROR:process_info.cc(608)] range at 0xd9813e1400000000, size 0x1e2 fully unreadable
+[0905/154645:ERROR:process_info.cc(608)] range at 0xd9813e7a00000000, size 0x1e2 fully unreadable
+[0905/154645:ERROR:process_info.cc(608)] range at 0x0, size 0x1e2 fully unreadable
+[0905/154645:WARNING:in_range_cast.h(38)] value 2073823352648 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2073823352470 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2073823354268 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2073823350358 out of range
+[0905/154645:WARNING:in_range_cast.h(38)] value 2073823350566 out of range
+[0906/235204:ERROR:process_info.cc(608)] range at 0x1c093f0400000000, size 0x217 fully unreadable
+[0906/235204:ERROR:process_info.cc(608)] range at 0x1c093f6800000000, size 0x217 fully unreadable
+[0906/235204:ERROR:process_info.cc(608)] range at 0x0, size 0x217 fully unreadable
+[0906/235204:ERROR:process_reader_win.cc(142)] SuspendThread: Отказано в доступе. (0x5)
+[0906/235204:ERROR:exception_snapshot_win.cc(88)] thread ID 8944 not found in process
+[0906/235204:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed

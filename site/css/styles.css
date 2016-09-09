@@ -40,9 +40,31 @@ body {
 	color:#57585A; 
 	font-size: 25px;
 }
-.green p>span {
-	margin-left: 100px;
+#change-lang>button {
+	padding: 0 0 0 20px;
+	color:#57585A; 
+	font-size: 25px;
+	background-color: #6cac57; 
+	border: 0;
 }
+#change-lang>.dropdown-menu>li>a {
+	background-color: #6cac57; 
+
+	font-size: 25px;
+	color:#57585A;
+}
+
+#change-lang>.dropdown-menu {
+	background-color: #6cac57;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	min-width: 10px;
+	
+	
+}
+
 #header-nav {
 	background-color: #56575a;
 	border-radius: 0;
@@ -73,6 +95,13 @@ body {
 #nav-list a:hover {
 	color: #6cac57;
 }
+#nav-list>li>ul>li {
+	border-top: 1px solid white;
+
+} 
+#nav-list>li>ul>li>a {
+	background-color: #56575a;
+}
 
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -87,6 +116,10 @@ body {
 	font-size: 18px;
 	color: white;
 	background-color: #56575a;
+}
+.dropdown-menu {
+	padding-bottom: 0;
+	padding-top: 0;
 }
 
 
@@ -156,7 +189,9 @@ body {
 }
 #main-content {
 	margin-bottom: 70px;
-
+}
+#main-content-ukr {
+	margin-bottom: 70px;
 }
 
 .company-header {
@@ -483,6 +518,10 @@ input.form-control {
 		background: url('../images/baner1170-432.jpg') no-repeat;
 		height: 432px;
 	}
+	#main-content-ukr .jumbotron {
+		background: url('../images/baner-ukr1190-432.jpg') no-repeat;
+		height: 432px;
+	}
 	/*technika*/
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech1170-432.jpg') no-repeat;	
@@ -507,7 +546,16 @@ input.form-control {
 		height: 60px;
 	}
 
-
+	/*ukr variant*/
+	#smittya {
+		font-size: 29px;
+	}
+	#navantazhuvach {
+		font-size: 28px;
+	}
+	#navantazhuvachvil {
+		font-size: 30px;
+	}
 	/*.home {
 		background: url('../images/home56-45.png') no-repeat;
 		height: 45px;
@@ -554,6 +602,11 @@ input.form-control {
 		height: 355px;
 		
 	}
+	#main-content-ukr .jumbotron {
+		background: url('../images/baner-ukr978-355.jpg') no-repeat;
+		height: 355px;
+		
+	}
 	/*main*/
 	#about, #technika, #building {
 		/*display: table;*/
@@ -594,6 +647,16 @@ input.form-control {
 	/*forma*/
 	label.control-label {
 		font-size: 15px;
+	}
+	/*ukr variant*/
+	#smittya {
+		font-size: 23px;
+	}
+	#navantazhuvach {
+		font-size: 23px;
+	}
+	#navantazhuvachvil {
+		font-size: 25px;
 	}
 }
 
@@ -641,6 +704,10 @@ input.form-control {
 
 	#main-content .jumbotron {
 		background: url('../images/baner738-272.jpg') no-repeat;
+		height: 272px;	
+	}
+	#main-content-ukr .jumbotron {
+		background: url('../images/baner-ukr749-272.jpg') no-repeat;
 		height: 272px;	
 	}
 	/*main*/
@@ -696,6 +763,17 @@ input.form-control {
 	.green p>span {
 		margin-left: 30px;
 	}
+	#change-lang>button {
+	
+	font-size: 21px;
+	
+}
+#change-lang>.dropdown-menu>li>a {
+	
+
+	font-size: 21px;
+	
+}
 	#logo-img {
 		background: url('../images/logo-up170-72.png') no-repeat;
 		width: 170px;
