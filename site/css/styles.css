@@ -15,7 +15,7 @@
 	src: url('../fonts/MYRIADPRO-COND.eot?#iefix') format('embedded-opentype'),
 		 url('../fonts/MYRIADPRO-COND.woff') format('woff'), 
 		 url('../fonts/MYRIADPRO-COND.ttf') format('truetype'), 
-		 url('../fonts/MYRIADPRO-COND.svg#MYRIADPRO-COND') format('svg'); 
+		 url('../fonts/MYRIADPRO-COND.svg#MyriadPro-Cond') format('svg'); 
 	font-weight: normal; 
 	font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
   font-size: 18px;
   color: white;
   background-color: #707070;
-  font-family: MyriadPro-Cond, MyriadPro-Cond-Light, Arial, Tahoma, Helvetica, Verdana;
+  font-family: 'MyriadPro-Cond', 'MyriadPro-Cond-Light', 'Open Sans', sans-serif;;
 }
 
 
@@ -268,7 +268,7 @@ header h1.company-h1 {
 	width: 100%;
 	height: 75px;
 	font-size: 26px;
-
+	border-radius: 20px 20px 0 0;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
@@ -375,7 +375,7 @@ header h1.company-h1 {
 	height: 75px;
 	font-size: 26px;
 	font-family: MyriadPro-Cond-Light, Arial, Tahoma, Helvetica, Verdana;
-
+	border-radius: 20px 20px 0 0;
 	text-align: center;
 /*	text-transform: uppercase;*/
 	color: white;
@@ -485,11 +485,15 @@ h1.pull-left {
 input.form-control {
 	background-color: #B7BBBC;
 	border: 0;
+	font-size: 20px;
 }
 .form-horizontal .control-label {
 	text-align: left;
 	color: black;
-
+	/*font-family: Arial;
+	-webkit-font-smoothing: none;*/
+	/*font-family: Open Sans;
+	font-weight: 300;*/
 }
 /*end forma*/
 
@@ -522,6 +526,19 @@ input.form-control {
 		background: url('../images/baner-ukr1190-432.jpg') no-repeat;
 		height: 432px;
 	}
+	#logo-tools {
+		background: url('../images/tools80-80.jpg') no-repeat;
+		width: 80px;
+		height: 80px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#tools-p {
+		color: #4D4D4D;
+		padding-right: 13px;
+		padding-left: 13px;
+		font-size: 20px;
+	}
 	/*technika*/
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech1170-432.jpg') no-repeat;	
@@ -545,7 +562,21 @@ input.form-control {
 	.even {
 		height: 60px;
 	}
-
+	/*about*/
+	#logo-tools-about {
+		background: url('../images/tools-about230-70.jpg') no-repeat;
+		width: 230px;
+		height: 70px;
+		margin-left: 5px;
+		margin-right: 15px;
+	}
+	#tools-about-p {
+		color: #4D4D4D;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 10px;
+		font-size: 21px;
+	}
 	/*ukr variant*/
 	#smittya {
 		font-size: 29px;
@@ -622,6 +653,40 @@ input.form-control {
 	padding-left: 40px;
 	padding-right: 0;
 	}
+	
+	#logo-tools {
+		background: url('../images/tools60-60.jpg') no-repeat;
+		width: 60px;
+		height: 60px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 7px;
+	}
+
+	#tools-p {
+		color: #4D4D4D;
+		padding-right: 10px;
+		padding-left: 10px;
+		font-size: 17px;
+	}
+	/*about*/
+	#logo-tools-about {
+		background: url('../images/tools-about197-60.jpg') no-repeat;
+		width: 197px;
+		height: 60px;
+		margin-left: 5px;
+		margin-right: 15px;
+	}
+	#tools-about-p {
+		color: #4D4D4D;
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-left: 10px;
+		font-size: 19px;
+	}
+
+
+
 	/*technika*/
 	#main-content-technika .jumbotron {
 		background: url('../images/baner-tech962-355.jpg') no-repeat;
@@ -726,6 +791,23 @@ input.form-control {
 		background: url('../images/baner-tech738-272.jpg') no-repeat;
 		height: 272px;	
 	}
+	/*about*/
+	#logo-tools-about {
+		background: url('../images/tools-about131-40.jpg') no-repeat;
+		width: 131px;
+		height: 40px;
+		margin-left: 5px;
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+	#tools-about-p {
+		color: #4D4D4D;
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-left: 10px;
+		font-size: 17px;
+	}
+
 	/*all technika*/
 	h1.pull-left {
 	font-size: 26px;
@@ -806,6 +888,22 @@ input.form-control {
  	width: 260px;
 	margin: 0 auto 15px;
  	}
+	/*about*/
+ 	#logo-tools-about {
+		background: url('../images/tools-about164-50.jpg') no-repeat;
+		width: 164px;
+		height: 50px;
+		margin-left: 5px;
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+	#tools-about-p {
+		color: #4D4D4D;
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-left: 10px;
+		font-size: 19px;
+	}
  	/*all technika*/
  	h1.pull-left {
 	font-size: 22px;
