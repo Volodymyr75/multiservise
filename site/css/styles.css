@@ -38,7 +38,9 @@ body {
 .green p {
 	text-align:right; 
 	color:#57585A; 
-	font-size: 25px;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 1px;
 }
 #change-lang>button {
 	padding: 0 0 0 20px;
@@ -515,7 +517,7 @@ input.form-control {
 	}	
 	/*main*/
 	.no-padding {
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-right: 0;
 	}
 	#main-content .jumbotron {
@@ -620,6 +622,15 @@ input.form-control {
 		height: 85px;
 
 	/*	margin: 0 0 10px 0;*/
+	}
+
+	.green p {
+		text-align:right; 
+		color:#57585A; 
+		font-size: 24px;
+	}
+	.green p>span {
+		margin-left: 50px;
 	}
 	#nav-list>li>a {
 		font-size: 17px;
@@ -746,10 +757,10 @@ input.form-control {
 	.green p {
 		text-align:right; 
 		color:#57585A; 
-		font-size: 23px;
+		font-size: 21px;
 	}
 	.green p>span {
-		margin-left: 50px;
+		margin-left: 40px;
 	}
 	
 	#logo-img {
@@ -841,9 +852,12 @@ input.form-control {
 		text-align:right; 
 		color:#57585A; 
 		font-size: 18px;
+		font-weight: 600;
+		letter-spacing: 0;
+
 	}
 	.green p>span {
-		margin-left: 30px;
+		margin-left: 15px;
 	}
 	#change-lang>button {
 	
@@ -934,7 +948,9 @@ input.form-control {
 	.green p {
 		text-align:right; 
 		color:#57585A; 
-		font-size: 14px;
+		font-size: 17px;
+		font-weight: 500;
+		letter-spacing: 0;
 	}
 	.green p>span {
 		margin-left: 10px;
