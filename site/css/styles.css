@@ -959,7 +959,14 @@ input.form-control {
 		width: 240px;
 		margin: 0 auto 15px;
 	}
-
+/*all technika*/
+ 	h1.pull-left {
+	font-size: 22px;
+	margin-top: 10px;
+	}
+	#front-29 {
+	font-size: 22px;
+	}
 /*techika*/
 .container .jumbotron {
 
