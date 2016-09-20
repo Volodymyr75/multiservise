@@ -45,14 +45,14 @@ body {
 #change-lang>button {
 	padding: 0 0 0 20px;
 	color:#57585A; 
-	font-size: 25px;
+	font-size: 26px;
 	background-color: #6cac57; 
 	border: 0;
 }
 #change-lang>.dropdown-menu>li>a {
 	background-color: #6cac57; 
 
-	font-size: 25px;
+	font-size: 26px;
 	color:#57585A;
 }
 
@@ -627,7 +627,7 @@ input.form-control {
 	.green p {
 		text-align:right; 
 		color:#57585A; 
-		font-size: 24px;
+		font-size: 23px;
 	}
 	.green p>span {
 		margin-left: 50px;
@@ -757,7 +757,7 @@ input.form-control {
 	.green p {
 		text-align:right; 
 		color:#57585A; 
-		font-size: 21px;
+		font-size: 20px;
 	}
 	.green p>span {
 		margin-left: 40px;
@@ -861,13 +861,13 @@ input.form-control {
 	}
 	#change-lang>button {
 	
-	font-size: 21px;
+	font-size: 18px;
 	
 }
 #change-lang>.dropdown-menu>li>a {
 	
 
-	font-size: 21px;
+	font-size: 18px;
 	
 }
 	#logo-img {
@@ -989,7 +989,7 @@ input.form-control {
 	}
  	#f1, #f2 {
 	
-	font-size: 19px;
+	font-size: 17px;
 	}
 	label.control-label {
 		font-size: 12px;
