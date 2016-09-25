@@ -18,7 +18,7 @@ $form['form-1'] = array(
 			'validate' => array(
 				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
 				'minlength' => '3',
-				'maxlength' => '35',
+				'maxlength' => '100',
 			),
 			'messages' => array(
 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
@@ -37,17 +37,120 @@ $form['form-1'] = array(
 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
 			)
 		),
+		'zakazchik' => array(
+			'title' => 'Заказчик',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '100',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'mail' => array(
+ 			'title' => 'E-mail',
+			'validate' => array(
+				'preg' => '%@%is',
+ 				'minlength' => '0',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'data' => array(
+			'title' => 'Дата заявки',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '50',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'charakter' => array(
+			'title' => 'Характер заявки',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '100',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'adress' => array(
+			'title' => 'Адрес',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '100',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'time' => array(
+			'title' => 'Время предоставления',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '50',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'probeg' => array(
+			'title' => 'Пробег',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '50',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'info' => array(
+			'title' => 'Дополнительно',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '0',
+				'maxlength' => '100',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+
 	),
 	'cfg' => array(
 		'charset' => 'utf-8',
-		'subject' => 'Тема письма',
-		'title' => 'Заголовок в теле письма',
+		'subject' => 'Заказ',
+		'title' => '',
 		'ajax' => true,
 		'validate' => true,
 		'from_email' => 'noreply@email.com',
 		'from_name' => 'noreply',
-		'to_email' => 'noreply1@email.com, noreply2@email.com',
-		'to_name' => 'noreply1, noreply2',
+		'to_email' => 'examle@ukr.net,strembov@gmail.com',
+		'to_name' => 'example, strembov',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -57,7 +160,7 @@ $form['form-1'] = array(
 		'okay' => 'Сообщение отправлено - OK',
 		'fuck' => 'Сообщение отправлено - ERROR',
 		'spam' => 'Cпам робот',
-		'notify' => 'color-modal-textbox',
+		'notify' => 'color-modal',
 		'usepresuf' => false
 	)
 );
@@ -68,7 +171,7 @@ $form['form-2'] = array(
 			'validate' => array(
 				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
 				'minlength' => '3',
-				'maxlength' => '35',
+				'maxlength' => '100',
 			),
 			'messages' => array(
 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
@@ -87,40 +190,17 @@ $form['form-2'] = array(
 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
 			)
 		),
-		'e-mail' => array(
-			'title' => 'E-mail',
-			'validate' => array(
-				'preg' => '%@%is',
-				'minlength' => '5',
-			),
-			'messages' => array(
-				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
-				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
-			)
-		),
-		'text' => array(
-			'title' => 'Сообщение',
-		),
-		'checkbox' => array(
-			'title' => 'Checkbox',
-			'validate' => array(
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'minlength' => '[ %1$s ] необходимо установить',
-			)
-		),
 	),
 	'cfg' => array(
 		'charset' => 'utf-8',
-		'subject' => 'Тема письма',
-		'title' => 'Заголовок в теле письма',
+		'subject' => 'Перезвонить',
+		'title' => '',
 		'ajax' => true,
 		'validate' => true,
 		'from_email' => 'noreply@email.com',
 		'from_name' => 'noreply',
-		'to_email' => 'noreply1@email.com, noreply2@email.com',
-		'to_name' => 'noreply1, noreply2',
+		'to_email' => 'examle@ukr.net, strembov@gmail.com',
+		'to_name' => 'examle',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -130,107 +210,107 @@ $form['form-2'] = array(
 		'okay' => 'Сообщение отправлено - OK',
 		'fuck' => 'Сообщение отправлено - ERROR',
 		'spam' => 'Cпам робот',
-		'notify' => 'color-modal-textbox',
-		'usepresuf' => false
-	)
-);
-$form['form-3'] = array(
-	'fields' => array(
-		'name' => array(
-			'title' => 'Имя',
-			'validate' => array(
-				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
-				'minlength' => '3',
-				'maxlength' => '35',
-			),
-			'messages' => array(
-				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
-				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
-				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
-			)
-		),
-		'tell' => array(
-			'title' => 'Телефон',
-			'validate' => array(
-				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
-				'minlength' => '5',
-			),
-			'messages' => array(
-				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
-				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
-			)
-		),
-		'e-mail' => array(
-			'title' => 'E-mail',
-			'validate' => array(
-				'preg' => '%@%is',
-				'minlength' => '5',
-			),
-			'messages' => array(
-				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
-				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
-			)
-		),
-		'text' => array(
-			'title' => 'Сообщение',
-			'validate' => array(
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'minlength' => '[ %1$s ] необходимо заполнить',
-			)
-		),
-		'checkbox' => array(
-			'title' => 'Checkbox',
-			'validate' => array(
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'minlength' => '[ %1$s ] необходимо установить',
-			)
-		),
-		'radio' => array(
-			'title' => 'Radio',
-			'validate' => array(
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'minlength' => '[ %1$s ] необходимо выбрать',
-			)
-		),
-		'select' => array(
-			'title' => 'Select',
-			'validate' => array(
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'minlength' => '[ %1$s ] необходимо выбрать',
-			)
-		),
-	),
-	'cfg' => array(
-		'charset' => 'utf-8',
-		'subject' => 'Тема письма',
-		'title' => 'Заголовок в теле письма',
-		'ajax' => true,
-		'validate' => true,
-		'from_email' => 'noreply@email.com',
-		'from_name' => 'noreply',
-		'to_email' => 'noreply1@email.com, noreply2@email.com',
-		'to_name' => 'noreply1, noreply2',
-		'geoip' => true,
-		'referer' => true,
-		'type' => 'plain',
-		'tpl' => false,
-		'antispam' => 'email77',
-		'antispamjs' => 'address77',
-		'okay' => 'Сообщение отправлено - OK',
-		'fuck' => 'Сообщение отправлено - ERROR',
-		'spam' => 'Cпам робот',
 		'notify' => 'color-modal',
 		'usepresuf' => false
 	)
 );
+// $form['form-3'] = array(
+// 	'fields' => array(
+// 		'name' => array(
+// 			'title' => 'Имя',
+// 			'validate' => array(
+// 				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+// 				'minlength' => '3',
+// 				'maxlength' => '35',
+// 			),
+// 			'messages' => array(
+// 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+// 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+// 				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+// 			)
+// 		),
+// 		'tell' => array(
+// 			'title' => 'Телефон',
+// 			'validate' => array(
+// 				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+// 				'minlength' => '5',
+// 			),
+// 			'messages' => array(
+// 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+// 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+// 			)
+// 		),
+// 		'e-mail' => array(
+// 			'title' => 'E-mail',
+// 			'validate' => array(
+// 				'preg' => '%@%is',
+// 				'minlength' => '5',
+// 			),
+// 			'messages' => array(
+// 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+// 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+// 			)
+// 		),
+// 		'text' => array(
+// 			'title' => 'Сообщение',
+// 			'validate' => array(
+// 				'minlength' => '1',
+// 			),
+// 			'messages' => array(
+// 				'minlength' => '[ %1$s ] необходимо заполнить',
+// 			)
+// 		),
+// 		'checkbox' => array(
+// 			'title' => 'Checkbox',
+// 			'validate' => array(
+// 				'minlength' => '1',
+// 			),
+// 			'messages' => array(
+// 				'minlength' => '[ %1$s ] необходимо установить',
+// 			)
+// 		),
+// 		'radio' => array(
+// 			'title' => 'Radio',
+// 			'validate' => array(
+// 				'minlength' => '1',
+// 			),
+// 			'messages' => array(
+// 				'minlength' => '[ %1$s ] необходимо выбрать',
+// 			)
+// 		),
+// 		'select' => array(
+// 			'title' => 'Select',
+// 			'validate' => array(
+// 				'minlength' => '1',
+// 			),
+// 			'messages' => array(
+// 				'minlength' => '[ %1$s ] необходимо выбрать',
+// 			)
+// 		),
+// 	),
+// 	'cfg' => array(
+// 		'charset' => 'utf-8',
+// 		'subject' => 'Тема письма',
+// 		'title' => 'Заголовок в теле письма',
+// 		'ajax' => true,
+// 		'validate' => true,
+// 		'from_email' => 'noreply@email.com',
+// 		'from_name' => 'noreply',
+// 		'to_email' => 'noreply1@email.com, noreply2@email.com',
+// 		'to_name' => 'noreply1, noreply2',
+// 		'geoip' => true,
+// 		'referer' => true,
+// 		'type' => 'plain',
+// 		'tpl' => false,
+// 		'antispam' => 'email77',
+// 		'antispamjs' => 'address77',
+// 		'okay' => 'Сообщение отправлено - OK',
+// 		'fuck' => 'Сообщение отправлено - ERROR',
+// 		'spam' => 'Cпам робот',
+// 		'notify' => 'color-modal',
+// 		'usepresuf' => false
+// 	)
+// );
 
 
 
@@ -462,9 +542,15 @@ function adds($vars) {
     if(file_exists($tpl)) {
      $template = file_get_contents($tpl);
         foreach($vars['getdata'] as $name => $data) {
+        	// var_dump($vars);
+        	// var_dump($name);
+        	// var_dump($data);
             $template = str_replace(array("%%".$name.".title%%", "%%".$name.".value%%"), array($data['title'], $data['value']), $template);
+
         }
+       
         return $template;
+
     }
      else {
       return false;

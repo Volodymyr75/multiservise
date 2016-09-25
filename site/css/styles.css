@@ -38,6 +38,7 @@ body {
 .green p {
 	text-align:right; 
 	color:#57585A; 
+	
 	font-size: 28px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -45,14 +46,15 @@ body {
 #change-lang>button {
 	padding: 0 0 0 20px;
 	color:#57585A; 
-	font-size: 26px;
+	
+	font-weight: bold;
 	background-color: #6cac57; 
 	border: 0;
 }
 #change-lang>.dropdown-menu>li>a {
 	background-color: #6cac57; 
+	font-weight: bold;
 
-	font-size: 26px;
 	color:#57585A;
 }
 
@@ -269,14 +271,21 @@ header h1.company-h1 {
 	right: 0;
 	width: 100%;
 	height: 75px;
-	font-size: 26px;
+	font-size: 23px;
+	
+	line-height: 1.2;
+	
 	border-radius: 20px 20px 0 0;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
 }
+#technika span, #building span, #shipping span, #rent span {
+	padding-top: 10px;
+}
 #about span, #contact span {
 	line-height: 75px;
+
 }
 #about span, #rent span {
 	background-color: #EF9175;
@@ -375,13 +384,18 @@ header h1.company-h1 {
 	right: 0;
 	width: 100%;
 	height: 75px;
-	font-size: 26px;
+	font-size: 24px;
+	line-height: 1.2;
 	font-family: MyriadPro-Cond-Light, Arial, Tahoma, Helvetica, Verdana;
 	border-radius: 20px 20px 0 0;
 	text-align: center;
 /*	text-transform: uppercase;*/
 	color: white;
 }
+ #samosval span, #evakuator span, #pogruzchikvil span, #pogruzchikfront span,
+  #perevozka span, #spil span, #kultivator span, #kran span  {
+	padding-top: 10px;
+  }
 #avtokran span, #avtovyshka span, #assenizator span, #ekskavator span, #buldozer span, #skreper span {
 	line-height: 75px;
 }
@@ -439,9 +453,11 @@ header h1.technika-h1 {
 .t-left {   
     color: white;
     padding-left: 20px;
+    font-size: 19px;
 }
 .t-right {
     color: white;
+    font-size: 19px;
 }
 .no-padding-right {
 	padding-right: 0;
@@ -501,6 +517,13 @@ input.form-control {
 
 /***********************/
 @media (min-width: 1200px) {
+	/*header*/
+#change-lang>button {
+	font-size: 28px;
+}
+#change-lang>.dropdown-menu>li>a {
+	font-size: 28px;
+}
 	/*footer*/
 	#logo-down-img {
 	background: url('../images/logo-down220-144.png') no-repeat;
@@ -623,15 +646,19 @@ input.form-control {
 
 	/*	margin: 0 0 10px 0;*/
 	}
-
+	/*header*/
+	#change-lang>button {
+	font-size: 23px;
+	}
+	#change-lang>.dropdown-menu>li>a {
+	font-size: 23px;
+	}
 	.green p {
 		text-align:right; 
 		color:#57585A; 
 		font-size: 23px;
 	}
-	.green p>span {
-		margin-left: 50px;
-	}
+	
 	#nav-list>li>a {
 		font-size: 17px;
 	}
@@ -656,12 +683,13 @@ input.form-control {
 	#about span, #technika span, #building span, #shipping span, #rent span, #contact span {
 		font-size: 22px;
 		/*display: table-cell;
-
-		vertical-align: middle;*/
-
+	vertical-align: middle;*/
+	}
+	#technika span, #building span, #shipping span, #rent span {
+	padding-top: 12px;
 	}
 	.no-padding {
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-right: 0;
 	}
 	
@@ -753,15 +781,20 @@ input.form-control {
 	}
 	#footer-tel {
 	font-size: 15px;
+	}
+	/*header*/
+	#change-lang>button {
+	font-size: 20px;
+	}
+	#change-lang>.dropdown-menu>li>a {
+	font-size: 20px;
 	}	
 	.green p {
 		text-align:right; 
 		color:#57585A; 
 		font-size: 20px;
 	}
-	.green p>span {
-		margin-left: 40px;
-	}
+	
 	
 	#logo-img {
 		background: url('../images/logo-up170-72.png') no-repeat;
@@ -788,10 +821,13 @@ input.form-control {
 	}
 	/*main*/
 	#about span, #technika span, #building span, #shipping span, #rent span, #contact span {
-		font-size: 23px;
+		font-size: 22px;
 		/*display: table-cell;
 		vertical-align: middle;*/
 
+	}
+	#technika span, #building span, #shipping span, #rent span {
+	padding-top: 12px;
 	}
 /*	.no-padding {
 	padding-left: 40px;
@@ -856,9 +892,7 @@ input.form-control {
 		letter-spacing: 0;
 
 	}
-	.green p>span {
-		margin-left: 15px;
-	}
+	
 	#change-lang>button {
 	
 	font-size: 18px;
@@ -952,12 +986,18 @@ input.form-control {
 		font-weight: 500;
 		letter-spacing: 0;
 	}
-	.green p>span {
-		margin-left: 10px;
-	}
+	
 	#about, #technika, #building, #shipping, #rent, #contact {
 		width: 240px;
 		margin: 0 auto 15px;
+	}
+	/*about*/
+	#tools-about-p {
+		color: #4D4D4D;
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-left: 5px;
+		font-size: 17px;
 	}
 /*all technika*/
  	h1.pull-left {
@@ -999,4 +1039,123 @@ input.form-control {
 	}
 }
 
+
+
+.arcticmodal-overlay,
+.arcticmodal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.arcticmodal-container {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+*:first-child+html .arcticmodal-container {
+    height: 100%
+}
+
+.arcticmodal-container_i {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.arcticmodal-container_i2 {
+    padding: 24px;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+.arcticmodal-error {
+    padding: 20px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+}
+
+.arcticmodal-loading {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #000 url('../img/loading.gif') no-repeat 50% 50%;
+}
+.box-modal {
+    position: relative;
+    width: 655px;
+    min-height: 120px;
+    padding: 20px;
+    background: #fff;
+    color: #3c3c3c;
+/*
+    box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+*/
+    border-radius: 5px;
+}
+.light-modal {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+    border-radius: 5px;
+    opacity: 0;
+}
+#big-modal {
+ width: 655px;
+}
+#middle-modal {
+    width: 455px;
+}
+#small-modal {
+    width: 255px;
+}
+#feedback-modal-box {
+    width: 300px;
+}
+#feedback-modal-box #feedback-infolist {
+    list-style: none;
+    display: table;
+    width: 100%;
+    height: 100%;
+	margin:0;
+	padding:0;
+}
+#feedback-modal-box #feedback-infolist li {
+    text-align: center;
+    font-size: 110%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 120px;
+}
+#light-box {
+    border-radius: 5px;
+}
+.modal-close {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    background: #4497c6;
+    cursor: pointer;
+    border-radius: 13px;
+    font-family: Verdana;
+}
+
+.modal-close:hover {
+    background: #4aa5d8;
+}
 
