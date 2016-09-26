@@ -982,7 +982,7 @@ input.form-control {
 @media (max-width: 479px) {
 	/*home page*/
 	.green {
-	height: 40px;
+	height: 35px;
 	background-color: #6cac57; 
 	}
 	.green p {
@@ -991,7 +991,7 @@ input.form-control {
 		font-size: 17px;
 		font-weight: 500;
 		letter-spacing: 0;
-		line-height: 1.2;
+		line-height: 1.1;
 	}
 	#change-lang>button {
 	
@@ -1005,9 +1005,9 @@ input.form-control {
 	
 	}
 	#logo-img {
-		background: url('../images/logo-up170-72.png') no-repeat;
-		width: 170px;
-		height: 72px;
+		background: url('../images/logo-up140-59.png') no-repeat;
+		width: 140px;
+		height: 59px;
 	/*	margin: 0 0 10px 0;*/
 	}
 	#about, #technika, #building, #shipping, #rent, #contact {
