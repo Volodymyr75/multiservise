@@ -794,6 +794,7 @@ input.form-control {
 		text-align:right; 
 		color:#57585A; 
 		font-size: 20px;
+		letter-spacing: 0;
 	}
 	.green>div>div>div {
 		padding-right: 0;
