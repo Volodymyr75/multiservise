@@ -477,6 +477,7 @@ h1.pull-left {
 	border-radius: 0;
 	text-align: center;
 	font-size: 23px;
+	color: #474747;
 }
 .nav-tabs>li>a {
 	margin-right: 0;
@@ -881,7 +882,7 @@ input.form-control {
 @media (min-width: 480px) and (max-width: 767px) {
 	/*home page*/
 	.green {
-	height: 30px;
+	height: 40px;
 	background-color: #6cac57; 
 }
 	.green p {
@@ -890,6 +891,7 @@ input.form-control {
 		font-size: 18px;
 		font-weight: 600;
 		letter-spacing: 0;
+		line-height: 1.2;
 
 	}
 	
@@ -897,13 +899,13 @@ input.form-control {
 	
 	font-size: 18px;
 	
-}
-#change-lang>.dropdown-menu>li>a {
+	}
+	#change-lang>.dropdown-menu>li>a {
 	
 
 	font-size: 18px;
 	
-}
+	}
 	#logo-img {
 		background: url('../images/logo-up170-72.png') no-repeat;
 		width: 170px;
@@ -979,14 +981,35 @@ input.form-control {
 }
 @media (max-width: 479px) {
 	/*home page*/
+	.green {
+	height: 40px;
+	background-color: #6cac57; 
+	}
 	.green p {
 		text-align:right; 
 		color:#57585A; 
 		font-size: 17px;
 		font-weight: 500;
 		letter-spacing: 0;
+		line-height: 1.2;
 	}
+	#change-lang>button {
 	
+	font-size: 17px;
+	
+	}
+	#change-lang>.dropdown-menu>li>a {
+	
+
+	font-size: 17px;
+	
+	}
+	#logo-img {
+		background: url('../images/logo-up170-72.png') no-repeat;
+		width: 170px;
+		height: 72px;
+	/*	margin: 0 0 10px 0;*/
+	}
 	#about, #technika, #building, #shipping, #rent, #contact {
 		width: 240px;
 		margin: 0 auto 15px;
@@ -1029,7 +1052,7 @@ input.form-control {
 	}
  	#f1, #f2 {
 	
-	font-size: 17px;
+	font-size: 15px;
 	}
 	label.control-label {
 		font-size: 12px;
