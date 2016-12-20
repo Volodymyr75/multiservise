@@ -14,7 +14,7 @@ $ref = $_SERVER['HTTP_REFERER'];
 $form['form-1'] = array(
 	'fields' => array(
 		'name' => array(
-			'title' => 'Имя',
+			'title' => 'ФИО',
 			'validate' => array(
 				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
 				'minlength' => '3',
@@ -64,7 +64,7 @@ $form['form-1'] = array(
 		'data' => array(
 			'title' => 'Дата заявки',
 			'validate' => array(
-				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'preg' => '%[A-Z-a-zА-Яа-я0-9\s]%',
 				'minlength' => '0',
 				'maxlength' => '50',
 			),
@@ -148,9 +148,9 @@ $form['form-1'] = array(
 		'ajax' => true,
 		'validate' => true,
 		'from_email' => 'noreply@email.com',
-		'from_name' => 'noreply',
-		'to_email' => 'examle@ukr.net,strembov@gmail.com',
-		'to_name' => 'example, strembov',
+		'from_name' => 'multiservice',
+		'to_email' => 'm-services@ukr.net,homer.strem@gmail.com',
+		'to_name' => 'm-service',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -167,7 +167,7 @@ $form['form-1'] = array(
 $form['form-2'] = array(
 	'fields' => array(
 		'name' => array(
-			'title' => 'Имя',
+			'title' => 'ФИО',
 			'validate' => array(
 				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
 				'minlength' => '3',
@@ -198,9 +198,9 @@ $form['form-2'] = array(
 		'ajax' => true,
 		'validate' => true,
 		'from_email' => 'noreply@email.com',
-		'from_name' => 'noreply',
-		'to_email' => 'examle@ukr.net, strembov@gmail.com',
-		'to_name' => 'examle',
+		'from_name' => 'multiservice',
+		'to_email' => 'm-services@ukr.net, homer.strem@gmail.com',
+		'to_name' => 'm-service',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -542,13 +542,9 @@ function adds($vars) {
     if(file_exists($tpl)) {
      $template = file_get_contents($tpl);
         foreach($vars['getdata'] as $name => $data) {
-        	// var_dump($vars);
-        	// var_dump($name);
-        	// var_dump($data);
             $template = str_replace(array("%%".$name.".title%%", "%%".$name.".value%%"), array($data['title'], $data['value']), $template);
-
         }
-       
+        $template = preg_replace('/%%.*?%%/is', '', $template);	
         return $template;
 
     }

@@ -7,6 +7,8 @@
     <meta name="format-detection" content="telephone=no">
     <title>Мультисервіс</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/jquery.jgrowl.css">
+     <link rel="stylesheet" href="css/arcticmodal.jgrowl.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
@@ -20,7 +22,7 @@
   		<div class="container">
   			<div class="col-xs-12 no-padding-right">
   				<div class="col-md-offset-3 col-md-8 col-sm-offset-3 col-sm-8 col-xs-10">
-  					<p>+38 047 39 229 57, <br class="visible-xs"> +38 066 069 66 46, <span class="hidden-xs">+38 068 660 02 63</span></p>
+  					<p>+38 047 39 229 57<span class="hidden-xs">,</span><br class="visible-xs"> +38 066 069 66 46<span class="hidden-xs">, +38 068 660 02 63</span></p>
   				</div>
   				 <div class="col-md-1 col-sm-1 col-xs-2 no-padding-right">
   				 	<div class="dropdown" id="change-lang">
@@ -57,7 +59,7 @@
 			              <a href="about_ukr.html">ПРО КОМПАНІЮ</a>
 			            </li>
 			            <li class="dropdown">
-			              <a data-target="#" href="technika_ukr.html">КАТАЛОГ ТЕХНІКИ<br class=" dropdown-toggle hidden-xs">ТА ОБЛАДНАННЯ</a>
+			              <a data-target="#" href="technika_ukr.html">КАТАЛОГ ТЕХНІКИ <br class=" dropdown-toggle hidden-xs">ТА ОБЛАДНАННЯ</a>
 			              	<ul class="dropdown-menu dropdown-menu-left">
 			              		<li><a href="avtokran_ukr.html">Послуги автокрана</a></li>
 			              		<li><a href="avtovyshka_ukr.html">Послуги автовишки</a></li>
@@ -66,13 +68,13 @@
 			              		<li><a href="buldozen_ukr.html">Послуги бульдозера</a></li>
 			              		<li><a href="samosval_ukr.html">Послуги самоскида КАМАЗ</a></li>
 			              		<li><a href="evakuator_ukr.html">Послуги евакуатора з причепом(до 5 тн)</a></li>
-			              		<li><a href="pogruzchikvil_ukr.html">Послуги вилочного навантажувача (1.5 тн, 3.5 тн)</a></li>
+			              		<li><a href="kran_ukr.html">Послуги крана-маніпулятора</a></li>
 			              		<li><a href="pogruzchikfront_ukr.html">Послуги фронтального навантажувача (КУН)</a></li>
 			              		<li><a href="skreper_ukr.html">Послуги скрепера</a></li>
 			              		<li><a href="musor_ukr.html">Вивезення сміття, перевезення інших вантажів</a></li>
 			              		<li><a href="spil_ukr.html">Спил дерев, подрібнення гілок, рубка дров</a></li>
 			              		<li><a href="kultivator_ukr.html">Орання городів, культиватор</a></li>
-			              		<li><a href="kran_ukr.html">Послуги крана-маніпулятора</a></li>
+			              		<li><a href="pogruzchikvil_ukr.html">Послуги вилочного навантажувача (1.5 тн, 3.5 тн)</a></li>
 			              	</ul>
 			            </li>
 			            <li>
@@ -107,7 +109,7 @@
 							<h1 class="company-h1">МУЛЬТИСЕРВІС</h1>
 						</header>
 						<div id="logo-tools" class="pull-left hidden-sm"></div>
-						<p id="tools-p" align="justify">Проект &laquo;Мультисервіс&raquo; був створений з метою надання широкого спектру послуг та неохідністю зробити рішення логістичних та багатьох інших питань комфортними та доступними.<br>  Ми шукаємо індивідуальний підхід та компроміс в рішеннях! <br>  Ми завжди будемо раді прийти Вам на допомогу! <br>Адреса: 19900, вул. Кірова, 18, смт. Чорнобай, Черкаська обл.<br>Тел:+38 047 39 229 57 <br><span style="padding-left: 25px">+38 066 069 66 46</span> <br> <span style="padding-left: 25px">+38 068 660 02 63</span> <br> www.m-service.com.ua <br>E-mail: m-services@ukr.net <br> Skype: multi-s.eoc
+						<p id="tools-p" align="justify">Проект &laquo;Мультисервіс&raquo; був створений з метою надання широкого спектру послуг та неохідністю зробити рішення логістичних та багатьох інших питань комфортними та доступними.<br>  Ми шукаємо індивідуальний підхід та компроміс в рішеннях! <br>  Ми завжди будемо раді прийти Вам на допомогу! <br>Адреса: 19900, вул. Кропив&shyни&shyцько&shyго, 18, смт. Чорнобай, Черкаська обл.<br>Тел:+38 047 39 229 57 <br><span style="padding-left: 25px">+38 066 069 66 46</span> <br> <span style="padding-left: 25px">+38 068 660 02 63</span> <br> www.multi-services.com.ua <br>E-mail: m-services@ukr.net <br> Skype: multi-s.eoc
 		  				</p>
 					</div>
 				</div>
@@ -150,7 +152,7 @@
 					              <a href="about_ukr.html">ПРО КОМПАНІЮ</a>
 					            </li>
 					            <li >
-					              <a href="technika_ukr.html">КАТАЛОГ ТЕХНІКИ<br class="hidden-xs">ТА ОБЛАДНАННЯ</a>  	
+					              <a href="technika_ukr.html">КАТАЛОГ ТЕХНІКИ <br class="hidden-xs">ТА ОБЛАДНАННЯ</a>  	
 					            </li>
 					            <li>
 					              <a href="building_ukr.html">ПРОДАЖ БУДІВЕЛЬНИХ <br class="hidden-xs">ТА ПИЛОМАТЕРІАЛІВ</a>
@@ -167,7 +169,7 @@
 					    </ul><!-- #nav-list -->
 				    </div>
 	  				<div class="col-lg-offset-2 col-lg-10 col-md-offset-1 col-md-11 col-sm-offset-2 col-sm-10">
-	  					<p id="footer-adress">19900, вул. Кірова, 18, смт. Чорнобай, Черкаська обл., m-services@ukr.net, Skype: multi-s.eoc</p>
+	  					<p id="footer-adress">19900, вул. Кропивницького, 18, смт. Чорнобай, Черкаська обл., m-services@ukr.net, Skype: multi-s.eoc</p>
 	  					<p id="footer-tel">Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63</p>
 	  				</div>
 	  			</div>
@@ -180,6 +182,19 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-3.1.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.jgrowl.js"></script>
+   <script src="js/jquery.arcticmodal.js"></script>
+    <script src="js/feedback.js"></script>
   <script src="js/script.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85706334-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

@@ -399,13 +399,13 @@ header h1.company-h1 {
 #avtokran span, #avtovyshka span, #assenizator span, #ekskavator span, #buldozer span, #skreper span {
 	line-height: 75px;
 }
-#avtokran span, #ekskavator span, #evakuator span, #pogruzchikfront span, #spil span, #kran span {
+#avtokran span, #ekskavator span, #evakuator span, #pogruzchikfront span, #spil span, #pogruzchikvil span {
 	background-color: #EF6152;
 }
 #assenizator span, #samosval span, #perevozka span {
 	background-color: #6CAD58;
 }
-#avtovyshka span, #buldozer span, #pogruzchikvil span, #skreper span, #kultivator span  {
+#avtovyshka span, #buldozer span,  #kran span, #skreper span, #kultivator span  {
 	background-color: #52908B;
 }
 
@@ -573,7 +573,7 @@ input.form-control {
 	/*all technika*/
 	h1.pull-left {
 	font-size: 30px;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 	
 	}
 	#front-29 {
@@ -588,6 +588,7 @@ input.form-control {
 	.even {
 		height: 60px;
 	}
+	
 	/*about*/
 	#logo-tools-about {
 		background: url('../images/tools-about230-70.jpg') no-repeat;
@@ -595,10 +596,11 @@ input.form-control {
 		height: 70px;
 		margin-left: 5px;
 		margin-right: 15px;
+		margin-top: 20px;
 	}
 	#tools-about-p {
 		color: #4D4D4D;
-		padding-top: 20px;
+		padding-top: 10px;
 		padding-right: 20px;
 		padding-left: 10px;
 		font-size: 21px;
@@ -716,10 +718,11 @@ input.form-control {
 		height: 60px;
 		margin-left: 5px;
 		margin-right: 15px;
+		margin-top: 20px;
 	}
 	#tools-about-p {
 		color: #4D4D4D;
-		padding-top: 15px;
+		padding-top: 10px;
 		padding-right: 20px;
 		padding-left: 10px;
 		font-size: 19px;
@@ -735,7 +738,7 @@ input.form-control {
 	/*all technika*/
 	h1.pull-left {
 	font-size: 26px;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	}
 	#front-29 {
 	font-size: 24px;
@@ -748,6 +751,12 @@ input.form-control {
 	}
 	.even {
 		height: 50px;
+	}
+	.t-left {   
+    font-size: 18px;
+	}
+	.t-right {
+    font-size: 18px;
 	}
 	/*forma*/
 	label.control-label {
@@ -863,7 +872,7 @@ input.form-control {
 	/*all technika*/
 	h1.pull-left {
 	font-size: 26px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	}
 	#front-29 {
 	font-size: 24px;
@@ -876,6 +885,12 @@ input.form-control {
 	}
 	.even {
 		height: 45px;
+	}
+	.t-left {   
+    font-size: 18px;
+	}
+	.t-right {
+    font-size: 18px;
 	}
 	/*forma*/
 	label.control-label {
@@ -964,7 +979,7 @@ input.form-control {
  	/*all technika*/
  	h1.pull-left {
 	font-size: 22px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	}
 	#front-29 {
 	font-size: 22px;
@@ -978,6 +993,13 @@ input.form-control {
 	.even {
 		height: 50px;
 	}
+	.t-left {   
+    font-size: 18px;
+	}
+	.t-right {
+    font-size: 18px;
+	}
+	
 	/*forma*/
 	label.control-label {
 		font-size: 14px;
@@ -999,6 +1021,7 @@ input.form-control {
 		font-weight: 500;
 		letter-spacing: 0;
 		line-height: 1.1;
+		margin-bottom: 0;
 	}
 	.green>div>div>div {
 		padding-right: 0;
@@ -1035,7 +1058,7 @@ input.form-control {
 /*all technika*/
  	h1.pull-left {
 	font-size: 22px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	}
 	#front-29 {
 	font-size: 22px;
@@ -1060,6 +1083,16 @@ input.form-control {
 	.even {
 		height: 40px;
 	}
+	.t-left {   
+    font-size: 18px;
+	}
+	.t-right {
+    font-size: 18px;
+	}
+	.img-responsive {
+		padding-right: 15px;
+	}
+
  	#f1, #f2 {
 	
 	font-size: 15px;

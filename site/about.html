@@ -7,6 +7,8 @@
     <meta name="format-detection" content="telephone=no">
     <title>О компании</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/jquery.jgrowl.css">
+     <link rel="stylesheet" href="css/arcticmodal.jgrowl.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
@@ -20,7 +22,7 @@
   		<div class="container">
   			<div class="col-xs-12 no-padding-right">
   				<div class="col-md-offset-3 col-md-8 col-sm-offset-3 col-sm-8 col-xs-10">
-  					<p>+38 047 39 229 57,<br class="visible-xs"> +38 066 069 66 46, <span class="hidden-xs">+38 068 660 02 63</span></p>
+  					<p>+38 047 39 229 57<span class="hidden-xs">,</span><br class="visible-xs"> +38 066 069 66 46<span class="hidden-xs">, +38 068 660 02 63</span></p>
   				</div>
   				 <div class="col-md-1 col-sm-1 col-xs-1 no-padding-right">
   				 	<div class="dropdown" id="change-lang">
@@ -57,7 +59,7 @@
 			              <a href="about.html">О КОМПАНИИ</a>
 			            </li>
 			            <li class="dropdown">
-			              <a data-target="#" href="technika.html" >КАТАЛОГ ТЕХНИКИ<br class=" dropdown-toggle hidden-xs">И ОБОРУДОВАНИЯ</a>
+			              <a data-target="#" href="technika.html" >КАТАЛОГ ТЕХНИКИ <br class=" dropdown-toggle hidden-xs">И ОБОРУДОВАНИЯ</a>
 			              	<ul class="dropdown-menu dropdown-menu-left">
 			              		<li><a href="avtokran.html">Услуги автокрана</a></li>
 			              		<li><a href="avtovyshka.html">Услуги автовышки</a></li>
@@ -66,13 +68,13 @@
 			              		<li><a href="buldozen.html">Услуги бульдозера</a></li>
 			              		<li><a href="samosval.html">Услуги самосвала КАМАЗ</a></li>
 			              		<li><a href="evakuator.html">Услуги эвакуатора с прицепом (до 5 тн)</a></li>
-			              		<li><a href="pogruzchikvil.html">Услуги вилочного погрузчика (1.5 тн, 3.5 тн)</a></li>
+			              		<li><a href="kran.html">Улуги крана-манипулятора</a></li>
 			              		<li><a href="pogruzchikfront.html">Услуги фронтального погрузчика (КУН)</a></li>
 			              		<li><a href="skreper.html">Услуги скрепера</a></li>
 			              		<li><a href="musor.html">Вывоз мусора, перевозка других грузов</a></li>
 			              		<li><a href="spil.html">Спил деревьев, дробление веток, рубка дров</a></li>
 			              		<li><a href="kultivator.html">Вспашка огородов, культиватор</a></li>
-			              		<li><a href="kran.html">Улуги крана-манипулятора</a></li>
+			              		<li><a href="pogruzchikvil.html">Услуги вилочного погрузчика (1.5 тн, 3.5 тн)</a></li>
 			              	</ul>
 			            </li>
 			            <li>
@@ -96,21 +98,21 @@
 
 	  <div id="main-content-avto" class="container">
 		<div id="" class="row">
-				<div class="col-sm-6 col-xs-12 no-padding-left">
-					<div class="technika" style="padding-top:20px">
+				<div class="col-sm-6 col-xs-12 no-padding-left no-padding-right">
+					
 						<div class="col-sm-9 col-xs-8 no-padding-right">
 						<h1 class="pull-left no-padding-right" >О КОМПАНИИ
 						</h1>
 						</div>
-						<div class="col-sm-2 col-xs-2">
-						<a href="index.html" style="float:right; clear:right"><img src="images/home50-40.png" alt="home"></a>
+						<div class="col-sm-2 col-xs-2 no-padding-right" style="padding-top: 15px; margin-bottom: 3px">
+						<a href="index.html"><img src="images/home45-36.png" alt="home"></a>
 						
 						</div>
-						<div class="col-sm-11 col-xs-12 img-tech">
+						<div class="col-sm-10 col-xs-12 img-tech no-padding-right">
 							<img src="images/about.jpg" class="img-responsive" alt="about">
 						</div>
 							
-					</div>
+					
 				</div>
 				<div class="col-sm-6 col-xs-12">
 					<div class="technika">
@@ -121,8 +123,9 @@
 								<tbody style="width: 100%">
 									<tr class="odd" style="height: 330px">
 										<td class="t-left">
-										<div id="logo-tools-about" class="pull-left" alt="tools"></div>
-											<p id="tools-about-p" align="justify">Проект &laquo;Мультисервис&raquo; был создан с целью оказания широкого спектра услуг и необходимостью сделать решения логистических и многих других вопросов комфортными и доступными.<br> Мы ищем индивидуальный подход и компромисс в решениях! <br> Мы всегда будем рады Вам помочь! <br>Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63 <br> www.m-service.com.ua <br>E-mail: m-services@ukr.net, Skype: multi-s.eoc
+										<div id="logo-tools-about" class="pull-left"></div>
+											<p id="tools-about-p" align="justify">Проект &laquo;Мультисервис&raquo; был создан с целью оказания широкого спектра услуг и необходимостью сделать решения логистических и многих других вопросов комфортными и доступными.<br> Мы ищем индивидуальный подход и компромисс в решениях! <br> Мы всегда будем рады Вам помочь! <br> Адрес: 19900, ул. Кропивницкого, 18, пгт. Чернобай, Черкасская обл.<br>
+											Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63 <br> www.multi-services.com.ua <br>E-mail: m-services@ukr.net, Skype: multi-s.eoc
 							  				</p>
 										</td>
 									</tr>	
@@ -153,8 +156,8 @@
 								    			</div>
 								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
 								    				<label class="col-sm-3 col-xs-4 control-label">ФИО:</label>
-								    				<div class="col-lg-8 col-sm-7 col-xs-8"">
-								    					<input type="text" name="name" class="form-control" id="" placeholder="" required>
+								    				<div class="col-lg-8 col-sm-7 col-xs-8">
+								    					<input type="text" name="name" class="form-control" placeholder="" required>
 								    					
 								    				</div>
 								    				<span class="hidden-xs"><img src="images/mark34-34.png" alt="mark"></span>
@@ -162,21 +165,22 @@
 								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
 								    				<label class="col-sm-3 col-xs-4 control-label">ТЕЛЕФОН:</label>
 								    				<div class="col-lg-8 col-sm-7 col-xs-8">
-								    					<input type="text" name="tell" class="form-control" id="" placeholder="" required>
+								    					<input type="text" name="tell" class="form-control" placeholder="" required>
 								    				</div>
-									    			    <span class="hidden-xs"><img src="images/mark34-34.png" alt="mark""></span>
+									    			    <span class="hidden-xs"><img src="images/mark34-34.png" alt="mark"
+									    			    ></span>
 									    		</div>
 								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
 								    				<label class="col-sm-3 col-xs-4 control-label">E-MAIL:</label>
 								    				<div class="col-lg-8 col-sm-7 col-xs-8">
-								    					<input type="email" name="mail" class="form-control" id="" placeholder="">
+								    					<input type="email" name="mail" class="form-control">
 								    				</div>
-								    					<span class="hidden-xs"><img src="images/mark34-34.png" alt="mark""></span>
+								    					
 								    			</div>
 								    			<div class="form-group col-sm-12 col-xs-12 no-padding-right">
 								    				<label class="col-sm-3 col-xs-4 control-label">ДАТА ЗАЯВКИ:</label>
 								    				<div class="col-lg-8 col-sm-7 col-xs-8">
-								    					<input type="text" name="data" class="form-control" id="" placeholder="">
+								    					<input type="text" name="data" class="form-control" placeholder="">
 								    				</div>
 									    		</div>
 									    	</div>
@@ -184,35 +188,35 @@
 							    				<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-4 control-label">ХАРАКТЕРИСТИКА ЗАКАЗА:</label>
 								    				<div class="col-sm-7 col-xs-8">
-								    					<input type="text" name="charakter" class="form-control" id="" placeholder="">
+								    					<input type="text" name="charakter" class="form-control" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-4 control-label">АДРЕС ПРЕДОСТАВЛЕНИЯ:</label>
 								    				<div class="col-sm-7 col-xs-8">
-								    					<input type="text" name="adress" class="form-control" id="" placeholder="">
+								    					<input type="text" name="adress" class="form-control" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-4 control-label">ВРЕМЯ ПОЛЬЗО<br class="visible-xs">ВАНИЯ (С/ПО):</label>
 								    				<div class="col-sm-7 col-xs-8">
-								    					<input type="text" name="time" class="form-control" id="" placeholder="">
+								    					<input type="text" name="time" class="form-control" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-4 control-label">ОРИЕНТИРОВОЧНЫЙ ПРОБЕГ:</label>
 								    				<div class="col-sm-7 col-xs-8">
-								    					<input type="text" name="probeg" class="form-control" id="" placeholder="">
+								    					<input type="text" name="probeg" class="form-control" placeholder="">
 								    				</div>
 								    			</div>
 								    			
 								    			<div class="form-group col-sm-12 col-xs-12">
 								    				<label class="col-sm-5 col-xs-4 control-label">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ:</label>
 								    				<div class="col-sm-7 col-xs-8">
-								    					<input type="text" name="info" class="form-control" id="" placeholder="">
+								    					<input type="text" name="info" class="form-control" placeholder="">
 								    				</div>
 								    			</div>
 							    			</div>
@@ -234,7 +238,7 @@
 							    			<div class="form-group col-sm-12">
 							    				<label class="col-sm-offset-3 col-sm-1 col-xs-offset-1 col-xs-2 control-label">ФИО:</label>
 							    				<div class="col-sm-4 col-xs-7 input-append">
-							    					<input type="text" name="name" class="form-control" id="" placeholder="" required>
+							    					<input type="text" name="name" class="form-control" placeholder="" required>
 							    					
 							    				</div>
 							    				<img src="images/mark34-34.png" alt="mark">
@@ -243,7 +247,7 @@
 							    			<div class="form-group col-sm-12">
 							    				<label class="col-sm-offset-3 col-sm-1 col-xs-offset-1 col-xs-2 control-label">ТЕЛЕФОН:</label>
 							    				<div class="col-sm-4 col-xs-7">
-							    					<input type="text" name="tell" class="form-control" id="" placeholder="" required>
+							    					<input type="text" name="tell" class="form-control" placeholder="" required>
 
 							    				</div>
 							    				<img src="images/mark34-34.png" alt="mark"">
@@ -271,7 +275,7 @@
 	  		<div class="row">
 	  			<div id="footer-left" class="col-sm-2 hidden-xs">
 	  				<a href="index.html" class="pull-left">
-  					<div id="logo-down-img" alt="logo"></div>
+  					<div id="logo-down-img"></div>
   				</a>
 	  			</div>
 	  			<div class="col-sm-10"> <!-- id="foot"  -->
@@ -281,7 +285,7 @@
 					              <a href="about.html">О КОМПАНИИ</a>
 					            </li>
 					            <li >
-					              <a href="technika.html">КАТАЛОГ ТЕХНИКИ<br class="hidden-xs">И ОБОРУДОВАНИЯ</a>  	
+					              <a href="technika.html">КАТАЛОГ ТЕХНИКИ <br class="hidden-xs">И ОБОРУДОВАНИЯ</a>  	
 					            </li>
 					            <li>
 					              <a href="building.html">ПРОДАЖА СТРОИТЕЛЬНЫХ <br class="hidden-xs">И ПИЛОМАТЕРИАЛОВ</a>
@@ -298,7 +302,7 @@
 					    </ul><!-- #nav-list -->
 				    </div>
 	  				<div class="col-lg-offset-2 col-lg-10 col-md-offset-1 col-md-11 col-sm-offset-2 col-sm-10">
-	  					<p id="footer-adress">19900, ул. Кирова, 18, пгт. Чернобай, Черкасская обл., m-services@ukr.net, Skype: multi-s.eoc</p>
+	  					<p id="footer-adress">19900, ул. Кропивницкого, 18, пгт. Чернобай, Черкасская обл., m-services@ukr.net, Skype: multi-s.eoc</p>
 	  					<p id="footer-tel">Тел:+38 047 39 229 57, +38 066 069 66 46, +38 068 660 02 63</p>
 	  				</div>
 	  			</div>
@@ -311,6 +315,9 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-3.1.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.jgrowl.js"></script>
+   <script src="js/jquery.arcticmodal.js"></script>
+    <script src="js/feedback.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
