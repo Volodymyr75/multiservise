@@ -306,7 +306,7 @@ header h1.company-h1 {
 }
 
 #avtokran, #avtovyshka, #assenizator, #ekskavator, #buldozer, #samosval, #evakuator,
- #pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran {
+ #pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran, #perevozukraina {
 	height: 290px;
 	width: 100%;
 	margin-bottom: 70px;
@@ -317,7 +317,7 @@ header h1.company-h1 {
 }
 #avtokran:hover, #avtovyshka:hover, #assenizator:hover, #ekskavator:hover, 
 #buldozer:hover, #samosval:hover, #evakuator:hover, #pogruzchikvil:hover,
- #pogruzchikfront:hover, #skreper:hover, #perevozka:hover, #spil:hover, #kultivator:hover, #kran:hover {
+ #pogruzchikfront:hover, #skreper:hover, #perevozka:hover, #spil:hover, #kultivator:hover, #kran:hover, #perevozukraina:hover {
 	box-shadow: 0 2px 5px 1px #56575a;
 }
 #avtokran {
@@ -375,10 +375,14 @@ header h1.company-h1 {
 	background: url('../images/kran260-215.jpg') no-repeat;
 	background-position: bottom;
 }
+#perevozukraina {
+	background: url('../images/perevozukraina260-215.jpg') no-repeat;
+	background-position: bottom;
+}
 
 #avtokran span, #avtovyshka span, #assenizator span, #ekskavator span, #buldozer span,
  #samosval span, #evakuator span, #pogruzchikvil span, #pogruzchikfront span,
-  #skreper span, #perevozka span, #spil span, #kultivator span, #kran span  {
+  #skreper span, #perevozka span, #spil span, #kultivator span, #kran span, #perevozukraina span   {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -393,7 +397,7 @@ header h1.company-h1 {
 	color: white;
 }
  #samosval span, #evakuator span, #pogruzchikvil span, #pogruzchikfront span,
-  #perevozka span, #spil span, #kultivator span, #kran span  {
+  #perevozka span, #spil span, #kultivator span, #kran span, #perevozukraina span  {
 	padding-top: 10px;
   }
 #avtokran span, #avtovyshka span, #assenizator span, #ekskavator span, #buldozer span, #skreper span {
@@ -402,7 +406,7 @@ header h1.company-h1 {
 #avtokran span, #ekskavator span, #evakuator span, #pogruzchikfront span, #spil span, #pogruzchikvil span {
 	background-color: #EF6152;
 }
-#assenizator span, #samosval span, #perevozka span {
+#assenizator span, #samosval span, #perevozka span, #perevozukraina span  {
 	background-color: #6CAD58;
 }
 #avtovyshka span, #buldozer span,  #kran span, #skreper span, #kultivator span  {
@@ -956,7 +960,7 @@ input.form-control {
 
 	/*technika*/
 	#avtokran, #avtovyshka, #assenizator, #ekskavator, #buldozer, #samosval, #evakuator,
- 	#pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran {
+ 	#pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran, #perevozukraina {
  	width: 260px;
 	margin: 0 auto 15px;
  	}
@@ -1070,7 +1074,7 @@ input.form-control {
 		padding: 0;
 	}
 	#avtokran, #avtovyshka, #assenizator, #ekskavator, #buldozer, #samosval, #evakuator,
-	 #pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran {
+	 #pogruzchikvil, #pogruzchikfront, #skreper, #perevozka, #spil, #kultivator, #kran, #perevozukraina {
  	width: 240px;
 	margin: 0 auto 15px;
  	}
